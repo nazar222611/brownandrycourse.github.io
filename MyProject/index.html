@@ -7,37 +7,58 @@
     <meta name="author" content="Nazar">
     <meta name="robots" content="all">
     <meta property="og:title">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Назар. Первая практика</title>
 </head>
 
 <body>
-    <Header>
+    <header>
         <nav>
             <div class="logo">Назар Бекмирзоев</div>
-            <div class="menu"></div>
-            <li>Обо мне</li>
-            <li>Услуги</li>
-            <li>Кейсы</li>
-            <li>Прайсы</li>
-            <li>Отзывы</li>
-            <li>Контакты</li>
+            <div class="menu">
+                <ul>
+                    <li><a href="$">Обо мне</a></li>
+                    <li><a href="$">Услуги</a></li>
+                    <li><a href="$">Кейсы</a></li>
+                    <li><a href="$">Прайсы</a></li>
+                    <li><a href="$">Отзывы</a></li>
+                    <li><a href="$">Контакты</a></li>
+                </ul>
+            </div>
         </nav>
-    </Header>
+    </header>
     <div class="main">
         <div class="title__conainer">
-            <h1>Привет. <br>Я Назар </h1>
+            <h1>Привет <br>Я Назар </h1>
             <h4>Фулл стэк вэб-разработчик</h4>
             <input type="submit" value="Обо мне">
             <input type="submit" value="Мои работы">
-            <h1>ОБО МНЕ</h1> <img width=10% src="src/img/%D0%BD%D0%B0%D0%B7%D0%B0%D1%80.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, amet nobis a excepturi id ut adipisci veniam modi! Aspernatur delectus quidem, esse laborum placeat rem blanditiis! Numquam minima, quis reiciendis.
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi veniam necessitatibus magni nulla accusantium assumenda natus quae beatae rem. </p> <img width=2% src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUoKdxsr9rNKxUv9WUx3dNxDLWxUiOtgO8PGc4T6aV1w&s" alt="Ой...картинка не загрузилась.">
-            <input type="submit" value="скачать резюме для ознакомления.">
-            <h1>Что я умею</h1>
-            <li><span><b>Веб-дизайн</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sequi.</span></li>
-            <li><span><b>Разработка</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sequi.</span></li>
-            <li><span><b>CEO-Оптимизация</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sequi.</span></li>
-            <li><span><b>Маркетинг</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, sequi.</span></li>
+        </div>
+    </div>
+            <div class="about_me"> 
+                <h2>ОБО МНЕ</h2>
+                <img width=10% src="src/img/%D0%BD%D0%B0%D0%B7%D0%B0%D1%80.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, amet nobis a excepturi id ut adipisci veniam modi! Aspernatur delectus quidem, esse laborum placeat rem blanditiis! Numquam minima, quis reiciendis.
+                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi veniam necessitatibus magni nulla accusantium assumenda natus quae beatae rem. </p> <img width=2% src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUoKdxsr9rNKxUv9WUx3dNxDLWxUiOtgO8PGc4T6aV1w&s" alt="Ой...картинка не загрузилась.">
+                <input type="submit" value="скачать резюме для ознакомления."> </div>
+            <h2>Что я умею</h2>
+            <div class="skillsitem">
+                <h3>Веб-дизайн</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, consequatur!</p>
+            </div>
+            <div class="skillsitem">
+                <h3>Разработка</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, consequatur!</p>
+            </div>
+            <div class="skillsitem">
+                <h3>СЕО оптимизация</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, consequatur!</p>
+            </div>
+            <div class="skillsitem">
+                <h3>Маркетинг</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, consequatur!</p>
+            </div>
             <h1>Кейсы</h1> <img src="src/img/%D0%9A%D0%95%D0%99%D0%A1%D0%AB.png" alt="Ой...картинка не загрузилась.">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nam doloribus vitae placeat dolore quibusdam nisi. Perferendis mollitia beatae officia.</p>
             <h4>CLIENT:</h4>
@@ -47,7 +68,8 @@
             <h4>Название проекта:</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, consectetur architecto velit aliquid mollitia, commodi aspernatur voluptatum ab ipsam, id fugiat eos distinctio similique veniam nostrum ipsa! Consequuntur, praesentium, pariatur.</p>
             <input type="button" value="VISIT LIVE SITE">
-            <h1>Расчет стоимости</h1>
+            <div class="hmc">
+            <h2>Расчет стоимости</h2>
             <form action="a">
                 <h2>ТИП САЙТА</h2>
                 <select name="list1" id="list2">
@@ -69,34 +91,33 @@
                     <option value="opt2">пункт1</option>
                     <option value="opt2">пункт2</option>
                     <option value="opt2">пункт3</option>
-                </select>
+                </select></div>
                 <input type="button" value="Расчитать">
                 <input type="reset" value="Очистить"> </form>
             <h4>Сроки</h4> <span>0</span>
             <h4>Стоимость</h4> <span>0</span>
-            <h1>НЕМНОГО СТАТИСТИКИ</h1>
-            <h2>120</h2> <span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
+            <h2>НЕМНОГО СТАТИСТИКИ</h2>
+            <h3>120</h3> <span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
             <h2>4,600</h2> <span>ЧАСОВ РАБОТЫ</span>
-            <h2>340</h2> <span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
-            <h2>23</h2> <span>НАГРАД ПОЛУЧЕНО</span>
-            <h1>ОТЗЫВЫ</h1> <img width=10% src="src/img/%D1%80%D0%B0%D0%B9%D0%B0%D0%BD.jpg" alt="Ой...картинка не загрузилась."> <span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsa ullam reiciendis repellat laudantium ut nulla magni debitis, omnis iusto incidunt nisi architecto adipisci cumque eos eveniet porro nostrum, ducimus!</span>
+            <h3>340</h3> <span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
+            <h3>23</h3> <span>НАГРАД ПОЛУЧЕНО</span>
+            <h2>ОТЗЫВЫ</h2> <img width=10% src="src/img/%D1%80%D0%B0%D0%B9%D0%B0%D0%BD.jpg" alt="Ой...картинка не загрузилась."> <span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsa ullam reiciendis repellat laudantium ut nulla magni debitis, omnis iusto incidunt nisi architecto adipisci cumque eos eveniet porro nostrum, ducimus!</span>
             <p><b>Райан Рейнольдс</b>, актёр</p>
-            <input type="radio" name "text_input1" value="1">
-            <input type="radio" name "text_input1" value="2">
-            <input type="radio" name "text_input1" value="3">
-            <h1>МОИ КОНТАКТЫ</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti laborum molestiae .</p>   
-            <img width="2%" src="src/img/geo.jpg" alt="Ой, картинка не загрузилась."> 
-            <br>Россия, Пермский край, Кондратово, ул.пушкина, дом2  
-            <br><img width="2%" src="src/img/mail.png" alt="Ой, картинка не загрузилась."> 
+            <input type="radio" name="text_input1" value="1">
+            <input type="radio" name="text_input1" value="2">
+            <input type="radio" name="text_input1" value="3">
+            <h2>МОИ КОНТАКТЫ</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti laborum molestiae .</p> <img width="2%" src="src/img/geo.jpg" alt="Ой, картинка не загрузилась.">
+            <br>Россия, Пермский край, Кондратово, ул.пушкина, дом2
+            <br><img width="2%" src="src/img/mail.png" alt="Ой, картинка не загрузилась.">
             <br>bekmirzoa@mail.ru
-            <br><img width="2%" src="src/img/telephone.png" alt="Ой, картинка не загрузилась."> 
-            <br>+7(919)440-95-36    
+            <br><img width="2%" src="src/img/telephone.png" alt="Ой, картинка не загрузилась.">
+            <br>+7(919)440-95-36
             <h2>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h2>
+            <input type="text" name "text_input" value "" placeholder="ИМЯ">
+            <input type="text" name "text_input" value "" placeholder="EMAIL">
+            <br>
+            <textarea name="Сообщение" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Отправить"> </body>
 
-            <input type="text" name"text_input" value"" placeholder="ИМЯ">    <input type="text" name"text_input" value"" placeholder="EMAIL">
-            <br><input type="text" name"text_input" value"" placeholder="Сообщение"> <input type="submit" value="Отправить">
-               
-                  
-    </body>
 </html>
